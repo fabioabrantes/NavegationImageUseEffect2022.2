@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { StatusBar } from 'react-native';
 
 import { 
   Container,
@@ -35,15 +34,15 @@ export function CalculadoraGorjeta() {
   }
 
   function mostrarRelatorio(){
-    if(valorConta && percentagemGorjeta >0) {
+    if(valorConta && percentagemGorjeta > 0) {
       setTemRelatorio(true);
     }
   }
 
-  useEffect(() => {
+ /*  useEffect(() => {
     calcGorjeta();
     setValorTotal('0');
-  }, [percentagemGorjeta,valorConta]);
+  }, [percentagemGorjeta,valorConta]); */
 
   return (
     <Container>

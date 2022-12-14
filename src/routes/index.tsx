@@ -9,9 +9,9 @@ export function Routes(){
 
   return (
     <NavigationContainer>
-      {/* <NavigationStack  /> */}
+      <NavigationStack  />
       {/* <NavigationTab/> */}
-      <NavigationDrawer/>
+      {/* <NavigationDrawer/> */}
     </NavigationContainer>
   )
 }

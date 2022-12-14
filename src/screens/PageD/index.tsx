@@ -11,10 +11,14 @@ export function PageD() {
     navigation.navigate("TelaE");
   }
 
+  function handleMoveScreenTab(){
+    navigation.navigate("NavigationTab");
+  }
   return (
     <Container >
       <Header>
         <ButtonBack title="Ir para Tela E" onPress={handleMoveScreenE}/>
+        <ButtonMove title="Ir para Tela de Tab" onPress={handleMoveScreenTab}/>
       </Header>
       
       <Content nameScreen='Tela D'/>

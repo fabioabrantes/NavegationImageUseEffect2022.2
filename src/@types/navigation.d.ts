@@ -6,7 +6,8 @@ export declare global {
       TelaC: {numero: number} | undefined;
       TelaD: undefined;
       TelaE: undefined;
-      Drawer: undefined;
+      NavigationDrawer: undefined;
+      NavigationTab: undefined;
     }
   }
 }

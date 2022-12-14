@@ -4,6 +4,8 @@ import { PageA } from '../../screens/PageA';
 import { PageB } from '../../screens/PageB';
 import { PageC } from '../../screens/PageC';
 
+import {NavigationDrawer} from '../NavigationDrawer';
+
 const stack = createNativeStackNavigator();
 
 export function NavigationStack(){
@@ -26,6 +28,10 @@ export function NavigationStack(){
       <stack.Screen 
         name='TelaC'
         component={PageC}
+      />
+      <stack.Screen
+        name="NavigationDrawer"
+        component={NavigationDrawer}
       />
     </stack.Navigator>
   )

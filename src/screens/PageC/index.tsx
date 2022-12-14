@@ -20,9 +20,13 @@ export function PageC() {
     navigation.goBack();
   }
 
+  function handleMoveScreenDrawer(){
+    navigation.navigate("NavigationDrawer");
+  }
+
   return (
     <Container >
-      <Header onBack={handleGoBack}/>
+      <Header onBack={handleGoBack} onMove={handleMoveScreenDrawer}/>
     
       <Content nameScreen='Tela C'/>
       <Content nameScreen={info? info.numero : 500}/>
