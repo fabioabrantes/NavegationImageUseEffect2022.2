@@ -31,7 +31,7 @@ export function NavigationStack(){
       />
       <stack.Screen
         name="NavigationDrawer"
-        component={NavigationDrawer}
+         component={NavigationDrawer}
       />
     </stack.Navigator>
   )
